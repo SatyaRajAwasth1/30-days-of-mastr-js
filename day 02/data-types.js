@@ -50,3 +50,7 @@ document.write(about);
 let str = "at 2nd day of string";
 console.log(str.split(' '))
 console.log(str.split('2'))
+
+if(str.includes("day")){
+    console.log("Hello");
+}
