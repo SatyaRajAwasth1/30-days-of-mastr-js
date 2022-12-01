@@ -47,7 +47,7 @@ firstName.length>lastName.length
 
 
 // q.n. 13
-/*
+
 let birth = prompt("enter your birth year in AD: ");
 let diff = (new Date().getFullYear() - birth);
 
@@ -56,7 +56,7 @@ let diff = (new Date().getFullYear() - birth);
 : console.log("you are "+diff+". You will be allowed to drive after "+18-diff , "years");
 
 // Q.N. 15
-*/
+
 let miti = new Date();
 console.log(miti.getFullYear()+"-"+miti.getMonth()+"-"+miti.getDay()+" "+miti.getHours()+":"+miti.getMinutes());
 
