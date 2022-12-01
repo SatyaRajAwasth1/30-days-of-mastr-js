@@ -28,11 +28,11 @@
     //q.n.2
 
 // q.. 9
-/*
+
 let hours = prompt("enter hours: ");
 let rate = prompt("enter rater per hour")
 console.log("Your weekly earning is "+hours*rate);
-*/
+
 // q.n. 10
 let name = "Satyadasdfaggaga";
 (name.length > 7)
@@ -62,6 +62,7 @@ console.log(miti.getFullYear()+"-"+miti.getMonth()+"-"+miti.getDay()+" "+miti.ge
 
 
 //level 3
+// q.n. 1
 let hour = miti.getHours();
 (hour < 10 ) ? hour = '0'+hour: hour += 0;
 
