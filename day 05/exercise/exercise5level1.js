@@ -107,3 +107,8 @@ console.log(itCompanies.reverse());
 console.log(itCompanies.slice(0,3))
 
 //q.n. 18 
+
+//q.n. 19
+
+//qn.20
+
