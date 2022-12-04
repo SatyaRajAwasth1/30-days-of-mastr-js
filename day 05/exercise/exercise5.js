@@ -67,6 +67,7 @@ for(let i=0; i<itCompanies.length; i++){
 console.log(`${itCompanies[0]} , ${itCompanies[1]} , ${itCompanies[2]} , ${itCompanies[3]} , ${itCompanies[4]} , ${itCompanies[5]} , 
 and ${itCompanies[6]} are big IT Companies.`)
 
+/*
 //q.n. 13
 let a = 0;
 let xCmp = prompt("Enter a IT Company Name to search : ");
@@ -82,5 +83,27 @@ if(a==1){
 else{
     console.log(xCmp+" not found.");
 }
+*/
 
-// q.n. 14
+// q.n. 14 errror baki xa
+// let count = 0, testArr = [];
+// for(let i = 0; i<itCompanies.length; i++){
+//     if(itCompanies[i].includes('o') || itCompanies[i].includes("O")){
+//         count++;
+//     }
+// }
+// console.log(count)
+// if(count>1){
+//     console.log(testArr);
+// }
+
+// q.n. 15
+console.log(itCompanies.sort());
+
+//q.n. 16
+console.log(itCompanies.reverse());
+
+//q.n. 17
+console.log(itCompanies.slice(0,3))
+
+//q.n. 18 
