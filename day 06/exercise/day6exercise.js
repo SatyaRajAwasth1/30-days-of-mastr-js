@@ -1,5 +1,8 @@
 // exercise of day 6 
 // about loops
+/*
+all the loops and iteration are same 2 c
+*/
 // level 1
 
 //q.n.4
