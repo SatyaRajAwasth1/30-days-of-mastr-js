@@ -46,7 +46,26 @@ for(let i = 0; i<6; i++){
 }
 console.log(randomId);
 */
+//level 2
+// 1
+let randomId = " ";
+let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+for(let i = 0; i<Math.random()*100; i++){
+    randomId += chars.charAt(Math.random()*chars.length);
+}
+console.log(randomId);
 
+//q.n. 3
+// creating random rgb number
+console.log(`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`);
+
+//q.n. 4
+let countries = ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"];
+
+//q.n. 5
+for (let i = 0; i<countries.length; i++){
+    console.log(countries[i].length);
+}
 
 
 
