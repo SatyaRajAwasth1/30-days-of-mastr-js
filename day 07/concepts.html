@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 07 functions</title>
+    <script>
+        // syntax of function
+        /*
+        function fnName(arguments){
+            // body of function
+            return value;
+        }
+        
+        Calling a function:
+        fnName(argument);
+
+        Function with variable length arguments
+        function fnName(){
+            // body of function
+            return value;
+        }
+        fnName(argg1, arg2.....)
+        */
+       //unlimited parameters
+       let sumOfNums = 0;
+       function sum(n1, n2,){
+        for(let i = 0; i<arguments.length; i++){
+            sumOfNums +=  arguments[i];
+        }
+        return sumOfNums
+       }
+       console.log(sum(1,2,3,4,5));
+       console.log(sum(1,2,3,4,5,10));
+
+
+       //anynomous function
+       const name = function(){
+        console.log("its interesting")
+       }
+       console.log(name);
+
+
+// Function expression
+const square = function(n) {
+  return n * n
+}
+
+console.log(square(7)) // -> 49
+
+
+//function with default param same as C
+
+//arrow function -> same as normal function but arrow used instead of function keyword
+const greetings = (name = 'Peter') => {
+  let message = name + ', welcome to 30 Days Of JavaScript!'
+  return message
+}
+
+console.log(greetings())
+console.log(greetings('Asabeneh'))
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
