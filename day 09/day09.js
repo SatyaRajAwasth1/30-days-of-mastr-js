@@ -38,4 +38,7 @@ function sayHello(){
 alert("Hello "+usrName +" Welcome.");
 }
 // setting a time interval to say hello and welcome to user in every 3 seconds.
-setInterval(sayHello , 10000); // setInerval(callable_function ,time) 1000 = 1 second
+//setInterval(sayHello , 10000); // setInerval(callable_function ,time) 1000 = 1 second
+
+// saying hello after 10 secs
+setTimeout(sayHello , 10000);
