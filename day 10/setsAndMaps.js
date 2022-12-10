@@ -26,3 +26,13 @@ console.log(players.has("Messi"));
 
 
 // Map -> contains key value pairs
+let playerInfo = new Map();
+playerInfo.set("Messi","Argentina");
+playerInfo.set("Neymar","Brazil");
+playerInfo.set("Ronaldo","Portugal");
+
+console.log(playerInfo);
+
+for(let player of playerInfo){
+    confirm(player);
+}
