@@ -36,3 +36,4 @@ console.log(playerInfo);
 for(let player of playerInfo){
     confirm(player);
 }
+console.log(playerInfo.get("Messi"));
